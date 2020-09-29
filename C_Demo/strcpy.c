@@ -14,6 +14,7 @@ char *strcpy(char* dest, const char* src) //源字符串使用const表示输入�
     return temp; //为了实现链式操作，返回地址
 }
 
+//主函数
 int main()
 {
     printf("*** strcpy test ***\r\n");
